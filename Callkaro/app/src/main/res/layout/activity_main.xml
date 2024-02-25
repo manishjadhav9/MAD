@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="+91 "
+        android:layout_marginTop="260dp"
+        android:textSize="25sp"
+        android:layout_toLeftOf="@id/et1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textSize="25sp"
+        android:hint="Phone number dee salya"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:onClick="call"
+        android:text="Call lavto thmb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+
+</RelativeLayout>
